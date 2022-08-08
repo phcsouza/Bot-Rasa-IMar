@@ -1,0 +1,16 @@
+Mudar diretório
+cd C:\Users\paulo\OneDrive\Documents\UNIFESP\TCC - Chatbots\Observatório IMar\Bot Rasa
+
+Iniciar o ambiente
+conda activate observatorio_bot
+
+treinar o bot
+rasa train
+
+rodar o bot no navegador
+rasa run -m models --enable-api --cors “*” --debug
+
+//////////////////////////////////////////////////
+
+rodar o bot no terminal
+rasa shell
