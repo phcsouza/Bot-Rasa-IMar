@@ -46,3 +46,13 @@ rules:
   steps:
   - intent: meios_de_contato
   - action: utter_meios_de_contato
+
+- rule: Acontecimentos marcantes de 2003
+  steps:
+  - intent: ano_de_2003
+  - action: utter_ano_de_2003
+
+- rule: Acontecimentos marcantes de 2012
+  steps:
+  - intent: ano_de_2012
+  - action: utter_ano_de_2012

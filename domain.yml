@@ -7,6 +7,12 @@ intents:
   - ajuda
   - inicio_biblioteca
   - fora_de_contexto
+  - o_que_eh_o_observaimar
+  - outros_observatorios
+  - meios_de_contato
+  - ano_de_2003
+  - ano_de_2012
+
 
 responses:
   utter_boas_vindas:
@@ -23,9 +29,14 @@ responses:
   - text: "Eu não consegui te entender direito, consegue reformular a frase?"
 
   utter_ajuda:
-  - text: "Até o momento só consigo falar sobre a criação da biblioteca, mas em breve trarei mais conteúdo :) \n
+  - text: "Até o momento só consigo falar sobre os assuntos abaixo, mas em breve trarei mais conteúdo :) \n
         Caso queira utilizar alguma palavra-chave eu recomendo: \n
-          - Início das atividades da Biblioteca no IMar."
+          - Início das atividades da Biblioteca do BICT.
+          - Propósito do ObservaIMar.
+          - Outros Observatórios.
+          - Meios de contato.
+          - Criação do campus.
+          - Primeira turma do BICT Mar."
   
   utter_inicio_biblioteca:
   - text: "A biblioteca do IMar começou a ser planejada em 20XX. Caso queira saber mais sobre esse assunto recomendo as seguintes entrevistas: \n
@@ -41,6 +52,12 @@ responses:
   
   utter_meios_de_contato:
   - text: "Caso você queira falar com uma pessoa, você pode fazer uma ligação para o número de telefone (13) 3229-0100, ou então mandar um e-mail para observaimar.bs@unifesp.br."
+
+  utter_ano_de_2003:
+  - text: "As primeiras propostas para a criação do campus ocorreram em 2003, quando a ex-parlamentar Mariângela Duarte propôs a expansão da UNIFESP para a Baixada Santista. Você pode ver a história em maiores detalhes no tópico 2003 da linha do tempo do Observatório."
+
+  utter_ano_de_2012:
+  - text: "Em 2012 houve o início do curso do BICT-Mar com 200 alunos. Neste período foi dado os toques finais no curso com a contratação de novos professores e organização da biblioteca. Houve também a realização de um projeto em parceria com a UFRJ, onde foram oferecidas as primeiras bolsas para os alunos. Você pode ver a história em maiores detalhes no tópico 2012 da linha do tempo do Observatório."
 
 session_config:
   session_expiration_time: 60

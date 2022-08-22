@@ -32,6 +32,7 @@ nlu:
     - A biblioteca já tinha livros quando foi inaugurada?
     - Como foi a inauguração da biblioteca?
     - Como era o acervo literário naquela época?
+    - Início das atividades da Biblioteca do Campus Carvalho de Mendonça
     - Bilbioteca
 #    - Quem foram os responsáveis pela criação da biblioteca?
 
@@ -39,7 +40,7 @@ nlu:
   examples: |
     - O que é o observatório do IMar?
     - Para que serve o observatório do Instituto do Mar?
-    - Qual a missão do observatório?
+    - Qual a missão do ObservaIMar?
     - Qual o intuito do observatório do IMar?
     - Com que finalidade foi criado o observatório do Instituto do Mar?
     - Qual o propósito do observatório do IMar
@@ -91,3 +92,17 @@ nlu:
     - 0123456789
     - esta é uma mensagem fora de contexto
     - quanto é 4+3?
+
+- intent: ano_de_2003
+  examples: |
+    - Como ocorreu a expansão da UNIFESP para a Baixada Santista?
+    - Como começaram as trativas para a criação do campus?
+    - Quem foram os responsáveis por trazer o campus para Santos?
+    - UNIFESP BS na cidade de Santos.
+
+- intent: ano_de_2012
+  examples: |
+    - Em que ano houve a primeira turma do Bacharelado Interdisplinar em Ciência e Tecnologia do Mar?
+    - Ano de inicio das aulas do BICT Mar?
+    - Primeira Turma
+    - Início das aulas
